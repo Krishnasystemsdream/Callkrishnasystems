@@ -7,6 +7,7 @@
 
   <!-- Google Font for Custom Style -->
   <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> <!-- Bold, All Caps Font -->
 
   <style>
     body {
@@ -44,11 +45,17 @@
       background-color: #0056b3;
     }
 
+    /* Apply Bold and All Caps to English Text */
+    .english-text {
+      font-family: 'Anton', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
   </style>
 </head>
 <body>
   <h1>Call Krishna Systems</h1>
-  <p>Tap the button below to call us directly. <br> আপনার সাথে যোগাযোগ করার জন্য নীচের বোতামটিতে ট্যাপ করুন।</p>
+  <p><span class="english-text">Tap the button below to call us directly.</span><br> আপনার সাথে যোগাযোগ করার জন্য নীচের বোতামটিতে ট্যাপ করুন।</p>
   <a href="tel:+918599926512" class="button">Call Now</a>
 </body>
 </html>
